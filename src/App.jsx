@@ -1,19 +1,19 @@
-import "./styles/styleApp.scss";
-import { Routes, Route, useLocation } from "react-router-dom";
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
-import Home from "./containers/home";
-import About from "./containers/about";
-import Resume from "./containers/resume";
-import Skills from "./containers/skills";
-import Portfolio from "./containers/portfolio";
-import Contact from "./containers/contact";
-import Navbar from "./components/navBar";
-import particles from "./utils/particles";
+import './styles/styleApp.scss';
+import { Routes, Route, useLocation } from 'react-router-dom';
+import Particles from 'react-tsparticles';
+import { loadFull } from 'tsparticles';
+import Home from '@Containers/home';
+import About from '@Containers/about';
+import Resume from '@Containers/resume';
+import Skills from '@Containers/skills';
+import Portfolio from '@Containers/portfolio';
+import Contact from '@Containers/contact';
+import Navbar from '@Components/navBar';
+import particles from '@Utils/particles';
 function App() {
   const location = useLocation();
 
-  const renderParticleJsInHomePage = location.pathname === "/";
+  const renderParticleJsInHomePage = location.pathname === '/';
 
   const handleInit = async (main) => {
     await loadFull(main);
