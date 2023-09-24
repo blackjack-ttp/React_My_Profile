@@ -1,10 +1,7 @@
-/* eslint-disable react/prop-types */
-/* eslint-disable no-unused-vars */
-import React from 'react'
-import './styles.scss'
+import './styles.scss';
 
 const PageHeaderContent = (props) => {
-  const {headerText, icon} = props;
+  const { headerText, icon } = props;
   return (
     <>
       <div className="warpper">
@@ -12,7 +9,7 @@ const PageHeaderContent = (props) => {
         <span>{icon}</span>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default PageHeaderContent
+export default PageHeaderContent;
