@@ -12,7 +12,7 @@ const Home = () => {
   };
   return (
     <>
-      <section id="home" className="home">
+            <section id="home" className="home">
         <div className="home__text-wrapper">
           <h1>
             Hello, I'm BlackJack-TTP
