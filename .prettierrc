@@ -7,7 +7,7 @@
   "printWidth": 100,
   "overrides": [
       {
-          "files": "*.css",
+          "files": "*.scss",
           "options": {
               "singleQuote": false,
               "tabWidth": 4

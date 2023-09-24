@@ -1,1 +1,1 @@
-export { default as PROFILE_LOGO } from "../assets/BLACKJACK-TTP-LOGO.png";
+export { default as PROFILE_LOGO } from "../assets/logo/BLACKJACK-TTP-LOGO.png";
